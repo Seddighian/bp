@@ -5796,10 +5796,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/sub/${userID}#BPB-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/sub/${userID}#MTN-MCI-WIFI', 'Normal Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}#BPB-Normal', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}#MTN-MCI-WIFI', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -5820,7 +5820,7 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=singbox#BPB-Normal', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=singbox#MTN-MCI-WIFI', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -5862,10 +5862,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=xray#BPB-Full-Normal', 'Full normal Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=xray#TUNEL-Full-Normal', 'Full normal Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=xray#BPB-Full-Normal', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=xray#TUNEL-Full-Normal', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -5878,10 +5878,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/sub/${userID}?app=sfa#BPB-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/sub/${userID}?app=sfa#TUNEL-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=sfa#BPB-Full-Normal', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=sfa#TUNEL-Full-Normal', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -5910,10 +5910,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=clash#BPB-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=clash#TUNEL-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=clash#BPB-Full-Normal', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=clash#TUNEL-Full-Normal', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -5955,10 +5955,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/fragsub/${userID}#BPB-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/fragsub/${userID}#TUNEL-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}#BPB-Fragment', true)">
+                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}#TUNEL-Fragment', true)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -5971,10 +5971,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/fragsub/${userID}?app=hiddify#BPB-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/fragsub/${userID}?app=hiddify#TUNEL-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}?app=hiddify#BPB-Fragment', true)">
+                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}?app=hiddify#TUNEL-Fragment', true)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -6004,10 +6004,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=xray#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=xray#TUNEL-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=xray#BPB-Warp', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=xray#TUNEL-Warp', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -6024,10 +6024,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=singbox#TUNEL-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=singbox#TUNEL-Warp', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -6056,10 +6056,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=clash#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=clash#TUNEL-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=clash#BPB-Warp', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=clash#TUNEL-Warp', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -6089,10 +6089,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=nikang#BPB-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=nikang#TUNEL-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=nikang#BPB-Warp-Pro', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=nikang#TUNEL-Warp-Pro', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
@@ -6105,10 +6105,10 @@ function renderHomePage(proxySettings, hostName, isPassSet) {
                             </div>
                         </td>
                         <td>
-                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=hiddify#BPB-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
+                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=hiddify#TUNEL-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
                                 QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
                             </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=hiddify#BPB-Warp-Pro', false)">
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=hiddify#TUNEL-Warp-Pro', false)">
                                 Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
                             </button>
                         </td>
